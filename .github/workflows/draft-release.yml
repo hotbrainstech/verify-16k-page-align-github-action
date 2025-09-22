@@ -86,7 +86,7 @@ jobs:
             core.setOutput('release_notes', releaseNotes)
 
       - name: 'Create/Update Pull Request'
-        uses: 'hotbrainstech/verify-16k-page-align-github-action/.github/actions/create-pull-request@main' # ratchet:exclude
+        uses: 'abcxyz/pkg/.github/actions/create-pull-request@main' # ratchet:exclude
         with:
           token: '${{ secrets.ACTIONS_BOT_TOKEN }}'
           base_branch: '${{ github.ref_name }}'
