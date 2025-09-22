@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Verify 16KB page alignment (arm64-v8a)
+      - name: 🔎 Verify 16KB page alignment (arm64-v8a)
         uses: hotbrainstech/verify-16k-page-align-github-action@v1
         with:
           file: app/build/outputs/apk/release/app-release.apk
@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Verify 16KB page alignment (arm64-v8a and x86_64)
+      - name: 🔎 Verify 16KB page alignment (arm64-v8a and x86_64)
         uses: hotbrainstech/verify-16k-page-align-github-action@v1
         with:
           file: app/build/outputs/apk/release/app-release.apk
