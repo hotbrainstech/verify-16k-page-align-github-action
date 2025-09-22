@@ -3,7 +3,6 @@ name: Verify 16k page alignment
 author: HotBrains
 description: |-
   Verifies that native libraries inside an Android APK/AAB/APEX are 16KB page aligned.
-  Uses the verify-16k-page-align CLI and fails the workflow if any required library is not aligned.
 runs:
   using: node20
   main: build/run/index.js
