@@ -1,0 +1,9 @@
+bin
+dist
+node_modules
+.idea
+.env
+.azure
+historyfix.sh
+build
+.ncc
